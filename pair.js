@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await LakshanPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Lakshan/Bot-Helper/refs/heads/main/autoimage/Bot%20Lakshan%20WP.jpg",
+                url: "https://github.com/lakshanrl2711/LAKI-BOT-1/blob/main/WhatsApp%20Image%202025-08-31%20at%2003.00.40_d9f7105e.jpg?raw=true",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
